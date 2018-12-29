@@ -27,7 +27,7 @@ func transcoder(file, logo, dir string) (bool){
 // creates a new video with new resolution and logo on top right
 func makeWithRes(height int, width int, file, logo, location string) (bool)  {
   
-  file_path := "workspace/temp_"+file
+  file_path := "workspace/"+file
   logo_file:= "workspace/"+logo
 
   w := strconv.Itoa(width)
